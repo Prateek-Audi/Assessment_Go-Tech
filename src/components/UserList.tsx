@@ -77,7 +77,7 @@ const UsersList: React.FC = () => {
         minHeight="100vh"
         pt={8}
       >
-        <Container maxWidth="lg">
+        <Container maxWidth="xl">
           <Typography variant="h4" gutterBottom align="center">
             Users List
           </Typography>
@@ -99,7 +99,6 @@ const UsersList: React.FC = () => {
                       <Button
                         variant="contained"
                         color="primary"
-                        style={{ marginRight: "8px" }}
                         onClick={handleEditClick}
                       >
                         Edit
